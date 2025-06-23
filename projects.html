@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | BuildMaster Construction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Build<span>Master</span></h1>
+                    <p>Construction & Renovation</p>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <p>Explore our portfolio of completed construction projects</p>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="container">
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="residential" id="project1">
+                    <div class="project-image">
+                        <img src="images/project1-full.jpg" alt="Modern Residence">
+                        <div class="project-overlay">
+                            <a href="images/project1-full.jpg" class="project-view" data-lightbox="project1">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Modern Residence</h3>
+                        <p class="project-category">Residential Construction</p>
+                        <p class="project-description">This contemporary home features clean lines, expansive windows, and sustainable materials throughout.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Greenfield Subdivision</p>
+                            <p><strong>Size:</strong> 3,200 sq ft</p>
+                            <p><strong>Completed:</strong> June 2023</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project1-1.jpg" data-lightbox="project1-gallery"></a>
+                            <a href="images/project1-2.jpg" data-lightbox="project1-gallery"></a>
+                            <a href="images/project1-3.jpg" data-lightbox="project1-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="commercial" id="project2">
+                    <div class="project-image">
+                        <img src="images/project2-full.jpg" alt="Office Complex">
+                        <div class="project-overlay">
+                            <a href="images/project2-full.jpg" class="project-view" data-lightbox="project2">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Office Complex</h3>
+                        <p class="project-category">Commercial Construction</p>
+                        <p class="project-description">A LEED-certified office building with flexible workspaces and modern amenities for growing businesses.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Downtown Business District</p>
+                            <p><strong>Size:</strong> 25,000 sq ft</p>
+                            <p><strong>Completed:</strong> March 2023</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project2-1.jpg" data-lightbox="project2-gallery"></a>
+                            <a href="images/project2-2.jpg" data-lightbox="project2-gallery"></a>
+                            <a href="images/project2-3.jpg" data-lightbox="project2-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="renovation" id="project3">
+                    <div class="project-image">
+                        <img src="images/project3-full.jpg" alt="Kitchen Renovation">
+                        <div class="project-overlay">
+                            <a href="images/project3-full.jpg" class="project-view" data-lightbox="project3">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Kitchen Renovation</h3>
+                        <p class="project-category">Renovation</p>
+                        <p class="project-description">Complete transformation of a dated kitchen into a modern, functional space with custom cabinetry.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Heritage Neighborhood</p>
+                            <p><strong>Size:</strong> 350 sq ft</p>
+                            <p><strong>Completed:</strong> January 2023</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project3-1.jpg" data-lightbox="project3-gallery"></a>
+                            <a href="images/project3-2.jpg" data-lightbox="project3-gallery"></a>
+                            <a href="images/project3-3.jpg" data-lightbox="project3-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="residential" id="project4">
+                    <div class="project-image">
+                        <img src="images/project4-full.jpg" alt="Lakeside Retreat">
+                        <div class="project-overlay">
+                            <a href="images/project4-full.jpg" class="project-view" data-lightbox="project4">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Lakeside Retreat</h3>
+                        <p class="project-category">Residential Construction</p>
+                        <p class="project-description">A custom vacation home designed to maximize lake views while maintaining privacy and comfort.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Crystal Lake</p>
+                            <p><strong>Size:</strong> 2,800 sq ft</p>
+                            <p><strong>Completed:</strong> November 2022</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project4-1.jpg" data-lightbox="project4-gallery"></a>
+                            <a href="images/project4-2.jpg" data-lightbox="project4-gallery"></a>
+                            <a href="images/project4-3.jpg" data-lightbox="project4-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="commercial" id="project5">
+                    <div class="project-image">
+                        <img src="images/project5-full.jpg" alt="Retail Center">
+                        <div class="project-overlay">
+                            <a href="images/project5-full.jpg" class="project-view" data-lightbox="project5">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Retail Center</h3>
+                        <p class="project-category">Commercial Construction</p>
+                        <p class="project-description">Mixed-use retail center featuring six storefronts with residential units above.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Westside Plaza</p>
+                            <p><strong>Size:</strong> 42,000 sq ft</p>
+                            <p><strong>Completed:</strong> August 2022</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project5-1.jpg" data-lightbox="project5-gallery"></a>
+                            <a href="images/project5-2.jpg" data-lightbox="project5-gallery"></a>
+                            <a href="images/project5-3.jpg" data-lightbox="project5-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="renovation" id="project6">
+                    <div class="project-image">
+                        <img src="images/project6-full.jpg" alt="Historic Restoration">
+                        <div class="project-overlay">
+                            <a href="images/project6-full.jpg" class="project-view" data-lightbox="project6">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Historic Restoration</h3>
+                        <p class="project-category">Renovation</p>
+                        <p class="project-description">Careful restoration of a 1920s home, preserving original details while updating systems for modern living.</p>
+                        <div class="project-meta">
+                            <p><strong>Location:</strong> Old Town District</p>
+                            <p><strong>Size:</strong> 2,400 sq ft</p>
+                            <p><strong>Completed:</strong> May 2022</p>
+                        </div>
+                        <div class="project-gallery">
+                            <a href="images/project6-1.jpg" data-lightbox="project6-gallery"></a>
+                            <a href="images/project6-2.jpg" data-lightbox="project6-gallery"></a>
+                            <a href="images/project6-3.jpg" data-lightbox="project6-gallery"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials from Project Clients -->
+    <section class="project-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h3>Client Experiences</h3>
+                <h2>What Our Project Clients Say</h2>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"BuildMaster delivered our dream home on time and within budget. Their attention to detail was impressive, and they handled every challenge professionally."</p>
+                        <div class="client-info">
+                            <img src="images/client4.jpg" alt="Robert and Lisa Thompson">
+                            <div>
+                                <h5>Robert & Lisa Thompson</h5>
+                                <p>Modern Residence Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The office complex BuildMaster constructed for us has received countless compliments. Their team was collaborative and solution-oriented throughout."</p>
+                        <div class="client-info">
+                            <img src="images/client5.jpg" alt="Jennifer Park">
+                            <div>
+                                <h5>Jennifer Park</h5>
+                                <p>Office Complex Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Our kitchen renovation exceeded expectations. The team respected our home and delivered a space that's both beautiful and highly functional."</p>
+                        <div class="client-info">
+                            <img src="images/client6.jpg" alt="David and Maria Gonzalez">
+                            <div>
+                                <h5>David & Maria Gonzalez</h5>
+                                <p>Kitchen Renovation Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Construction Project?</h2>
+                <p>Let's discuss how we can bring your vision to life with the same quality showcased in our portfolio.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">Get Your Free Quote</a>
+                    <a href="tel:+15551234567" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

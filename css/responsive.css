@@ -1,0 +1,166 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h2 {
+        font-size: 42px;
+    }
+
+    .section-header h2 {
+        font-size: 32px;
+    }
+
+    .about-content,
+    .service-detail {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-image,
+    .service-image {
+        order: -1;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 80%;
+        height: calc(100vh - 80px);
+        background-color: var(--white);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: var(--transition);
+        z-index: 999;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .navbar ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn-secondary {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .projects-grid,
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding-top: 70px;
+        min-height: 500px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    .section-header h3 {
+        font-size: 16px;
+    }
+
+    .features-grid,
+    .values-grid,
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col {
+        margin-bottom: 30px;
+    }
+
+    .page-banner {
+        padding: 120px 0 60px;
+    }
+
+    .page-banner h2 {
+        font-size: 32px;
+    }
+
+    .filter-options {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 400px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
